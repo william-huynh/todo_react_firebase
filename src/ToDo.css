@@ -1,0 +1,15 @@
+.list_container {
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+    margin: 10px 0px;
+}
+
+.list_container > .InProgressBtn, .list_container > .DeleteBtn {
+    height: 50px;
+    margin:auto;
+}
+
+.list_container > .InProgressBtn {
+    width: 150px;
+}
